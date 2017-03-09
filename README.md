@@ -8,6 +8,16 @@ The following briefly lists all changes performed over facebook standard Creat R
 - Redux dependencies
 - Jest custom configuration
 
+## tl;dr
+
+```sh
+npm install -g @rangle/react-scripts
+create-react-app my-test-app --scripts-version @rangle/react-scripts
+cd my-test-app/
+npm run eject
+npm start
+```
+
 ## CSS loaders
 
 Check the [postcss](https://github.com/rangle/create-react-app/tree/master/packages/react-scripts/config/rangle/postcss.js) configuration that replaces the standard css setup. 
